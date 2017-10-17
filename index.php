@@ -4,10 +4,10 @@
 
 <?php
 
-$mytext1 = "Hello everyone!";
-$mytext2 = "How are you?";
+$mytext1 = "Good Morning Campers!";
+$mytext2 = "Suits You Sir!";
 
-$PosWorld = strpos($mytext1, "Everyone");
+$posWorld = strpos($mytext1, "Campers");
 $IngMyTxt1 = strlen($mytext1);
 $IngMyTxt2 = strlen($mytext2);  
   
@@ -24,8 +24,8 @@ echo "<br/><br/>";
 echo "The number of characters in the second string is ";
 echo $IngMyTxt2;
 echo "<br/><br/>";
-echo "The word 'Everyone' starts at position ";
-echo $PosWorld + 1;
+echo "The word 'Campers' starts at position ";
+echo $posWorld + 1;
 echo " in the first string <br/><br/>";
   
 ?>
