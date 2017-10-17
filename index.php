@@ -18,12 +18,12 @@ echo "The second string is: '";
 echo $mytext2;
 echo "'<br/><br/>";
 
-echo "The number of characters in the first string is: '";
+echo "The number of characters in the first string is: ";
 echo $IngMyTxt1;
-echo "'<br/><br/>";
-echo "The number of characters in the second string is: '";
+echo "<br/><br/>";
+echo "The number of characters in the second string is: ";
 echo $IngMyTxt2;
-echo "'<br/><br/>";
+echo "<br/><br/>";
   
 ?>
 
