@@ -24,6 +24,9 @@ echo "<br/><br/>";
 echo "The number of characters in the second string is ";
 echo $IngMyTxt2;
 echo "<br/><br/>";
+echo "The word 'Campers' starts at position ";
+echo $PosWorld + 1;
+echo " in the first string <br/><br/>";
   
 ?>
 
